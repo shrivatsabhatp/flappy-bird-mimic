@@ -3,13 +3,13 @@ const createElem = col => {
   elem.classList.add('board');
   elem.style.display = 'inline-block';
   elem.style.marginLeft = '10px';
-  elem.style.height = '6px';
-  elem.style.width = '6px';
+  elem.style.height = '10px';
+  elem.style.width = '10px';
   elem.style['background-color'] =
     col === 0
-      ? 'white'
+      ? '#e8e8e8'
       : (col === 1
-        ? 'cornflowerblue'
+        ? 'red'
         : col === 2
           ? 'gray'
           : 'silver');
